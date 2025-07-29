@@ -1,0 +1,556 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1737844933731509, "dur": 624337, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844933731915, "dur": 3205, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844933735123, "dur": 46321, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844933781445, "dur": 343831, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844934125279, "dur": 217191, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844934342471, "dur": 13373, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844934357110, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1737844933958305, "dur": 150557, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1737844933959480, "dur": 47917, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1737844934090051, "dur": 5903, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1737844934095959, "dur": 12893, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1737844934096803, "dur": 11001, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1737844934113774, "dur": 1463, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1737844934112937, "dur": 2323, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844934357283, "dur": 400, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1737844934174735, "dur":1399, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934176140, "dur":58, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1737844934176208, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1737844934176226, "dur":1080, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1737844934177354, "dur":584, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934177938, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934323911, "dur":543, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324454, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324479, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324484, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324493, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324496, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324502, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324505, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324513, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324516, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324523, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324525, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324533, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324536, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324544, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324547, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324552, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324554, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324561, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324563, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324569, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324571, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324578, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324580, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324586, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324589, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324596, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324598, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324603, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324606, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324613, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324616, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324622, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324644, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934324683, "dur":3515, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1737844934177163, "dur":787, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934177952, "dur":7824, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934185803, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1737844934185815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934187735, "dur":488, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1737844934188227, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1737844934188332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934188994, "dur":5499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1737844934194495, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1737844934194748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934195455, "dur":8203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1737844934203752, "dur":4038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934207800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934207816, "dur":6369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934214304, "dur":1694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934216002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934216010, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934219319, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934220970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934220979, "dur":5182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934226262, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934227096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934227132, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934231250, "dur":2236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934233490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934233498, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934236591, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934238201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934238242, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934242187, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934242684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934242691, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934246218, "dur":4572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934250795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737844934250807, "dur":9544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737844934260466, "dur":63468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934177275, "dur":692, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934177968, "dur":7813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934185791, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1737844934186248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934191758, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1737844934195748, "dur":6565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934202319, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934202332, "dur":7762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934210187, "dur":1230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934211421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934211429, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934216438, "dur":2834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934219275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934219284, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934221627, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934222576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934222585, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934226937, "dur":1608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934228549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934228559, "dur":4294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934233085, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934234736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934234745, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934237800, "dur":1911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934239715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934239723, "dur":4733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934244574, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934245381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934245389, "dur":6852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737844934252366, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1737844934252515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737844934252680, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1737844934258171, "dur":65741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934178102, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934178102, "dur":7712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934185814, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1737844934186220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934191015, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1737844934195260, "dur":1363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana.exe" }}
+,{ "pid":12345, "tid":3, "ts":1737844934196627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934196633, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana.exe" }}
+,{ "pid":12345, "tid":3, "ts":1737844934200776, "dur":5517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934206297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934206306, "dur":6478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934212878, "dur":8100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934220982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934220991, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934226979, "dur":1521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934228504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934228512, "dur":5348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934233944, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934234435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934234446, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934237901, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934239036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934239044, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934242864, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934243206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934243245, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934246829, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934247237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934247247, "dur":5128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737844934252487, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1737844934252604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934252615, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1737844934256749, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1737844934256855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737844934256863, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1737844934260658, "dur":63292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737844934177318, "dur":665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737844934177984, "dur":7795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737844934185792, "dur":1739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1737844934187534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737844934190867, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1737844934194880, "dur":51008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737844934245894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737844934246058, "dur":12803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737844934258974, "dur":64932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934178228, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934178229, "dur":7558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934185793, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1737844934187303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934191159, "dur":4776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1737844934196017, "dur":8741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934204762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934204771, "dur":7989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934212849, "dur":1603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934214457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934214466, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934218176, "dur":1799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934219979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934219987, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934223777, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934224834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934224876, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934228824, "dur":2960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934231788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934231796, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934235350, "dur":4231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934239585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934239594, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934243916, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934244329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934244337, "dur":5245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934249734, "dur":11050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934260788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737844934260797, "dur":7665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737844934268541, "dur":55373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934177430, "dur":573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934178003, "dur":7788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934185792, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1737844934186528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934190108, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1737844934194965, "dur":16198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1737844934211166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934211172, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1737844934214863, "dur":1674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934216541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934216549, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934219236, "dur":1684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934220924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934220932, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934226184, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934226931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934226939, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934231199, "dur":1840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934233075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934233087, "dur":3056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934236243, "dur":3056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934239303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934239312, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934243136, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934243796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934243803, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934247620, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934248129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934248182, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934251699, "dur":1178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934252880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934252919, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737844934256496, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1737844934256612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737844934256620, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1737844934259739, "dur":64181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737844934177510, "dur":502, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737844934178013, "dur":7803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737844934185816, "dur":1145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1737844934186964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737844934190915, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1737844934194920, "dur":108099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737844934303115, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737844934303136, "dur":20618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737844934323833, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1737844934323837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934177553, "dur":469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934178022, "dur":7772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934185798, "dur":1127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1737844934186927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934190396, "dur":4041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1737844934194519, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1737844934194728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934194738, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1737844934198290, "dur":6806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934205101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934205111, "dur":7808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934213019, "dur":2350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934215373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934215392, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934218930, "dur":1817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934220771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934220780, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934224629, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934225722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934225730, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934228850, "dur":2158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934231014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934231026, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934235269, "dur":4048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934239322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934239332, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934243054, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934243714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934243723, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934248035, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934248868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934248879, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737844934254798, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1737844934255629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737844934255644, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1737844934259183, "dur":64726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934177625, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934178029, "dur":7772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934185801, "dur":1008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1737844934186813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934190339, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1737844934194508, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1737844934194712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934194721, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1737844934196842, "dur":5721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934202567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934202576, "dur":9433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934212091, "dur":1271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934213366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934213376, "dur":4443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934217914, "dur":1985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934219902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934219910, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934223640, "dur":1591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934225235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934225245, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934228658, "dur":2787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934231450, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934231466, "dur":4132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934235711, "dur":978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934236693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934236702, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934239866, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934240866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934240878, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934244703, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934245817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934245827, "dur":6377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737844934252291, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1737844934252765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934253819, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1737844934256349, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1737844934256470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737844934256478, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1737844934259923, "dur":64006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934177770, "dur":267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934178037, "dur":7767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934185810, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1737844934186408, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934190359, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1737844934195359, "dur":2659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934198023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934198519, "dur":6489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934205114, "dur":4244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934209362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934209376, "dur":4798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934214301, "dur":2629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934216935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934216944, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934219843, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934221397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934221404, "dur":4812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934226354, "dur":1175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934227532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934227540, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934231446, "dur":2873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934234323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934234333, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934237623, "dur":2037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934239664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934239682, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934243497, "dur":1904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934245406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934245421, "dur":8596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737844934254196, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1737844934254642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737844934254676, "dur":5593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1737844934260385, "dur":63551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934177848, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934178048, "dur":7761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934185809, "dur":1573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1737844934187386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934190936, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1737844934194753, "dur":8667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934203426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934203889, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934207914, "dur":2154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934210072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934210081, "dur":6192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934216368, "dur":2952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934219323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934219330, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934222284, "dur":1367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934223655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934223663, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934228093, "dur":9105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934237203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934237213, "dur":4795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934242137, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934242994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934243003, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934246972, "dur":4665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934251641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737844934251694, "dur":7720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737844934259517, "dur":64421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934177975, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934177976, "dur":7806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934185792, "dur":1546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1737844934187341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934191071, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1737844934195940, "dur":8587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934204532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934204543, "dur":6218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934210854, "dur":1214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934212073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934212081, "dur":4695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934216892, "dur":2496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934219391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934219399, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934222999, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934224113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934224122, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934227930, "dur":1269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934229205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934229215, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934233932, "dur":6031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934239967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934239976, "dur":4352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934244435, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934244763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934244771, "dur":5055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934249923, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934250632, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934250653, "dur":6635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737844934257487, "dur":1619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1737844934259159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737844934259169, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1737844934261037, "dur":62885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934178028, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934178029, "dur":7767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934185797, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1737844934186164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934190365, "dur":4896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1737844934195351, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934196037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934198485, "dur":8856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934207449, "dur":2237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934209690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934209698, "dur":6370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934216156, "dur":2238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934218398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934218406, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934220425, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934221171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934221178, "dur":4995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934226295, "dur":1276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934227575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934227582, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934232034, "dur":2833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934234871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934234880, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934237665, "dur":1108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934238778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934238785, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934242250, "dur":6256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934248510, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737844934248523, "dur":11053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737844934259717, "dur":64200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934177232, "dur":722, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934177955, "dur":7829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934185793, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1737844934186337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934191135, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1737844934196140, "dur":3400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934199585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934199740, "dur":9605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934209442, "dur":1128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934210574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934210581, "dur":5150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934215828, "dur":1718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934217550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934217558, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934219965, "dur":1572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934221541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934221575, "dur":5045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934226753, "dur":1490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934228247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934228255, "dur":4168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934232521, "dur":3002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934235529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934235568, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934239134, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934240001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934240010, "dur":4539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934244647, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934245029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934245038, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934249527, "dur":1530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934251064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934251072, "dur":4870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737844934256051, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1737844934256347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737844934256356, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1737844934259263, "dur":64645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934178148, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934178149, "dur":7658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934185807, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1737844934186087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934191401, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1737844934195344, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1737844934195515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934195970, "dur":14278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1737844934210340, "dur":1263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934211639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934211646, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934216898, "dur":2512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934219417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934219425, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934222178, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934223429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934223438, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934227722, "dur":2232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934229958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934229968, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934233788, "dur":2354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934236146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934236154, "dur":3562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934239809, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934240860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934240871, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934244424, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934244853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934244895, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934249373, "dur":1907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934251284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934251293, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737844934256754, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1737844934256878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737844934256888, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1737844934260583, "dur":63353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934177386, "dur":608, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934177994, "dur":7795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934185792, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1737844934186108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934191006, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1737844934195480, "dur":7128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934202613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934202626, "dur":9145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934211873, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934212904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934212913, "dur":4927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934218022, "dur":2090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934220116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934220124, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934224189, "dur":1303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934225495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934225504, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934228756, "dur":1515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934230275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934230287, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934233891, "dur":2989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934236883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934236893, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934241209, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934242329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934242337, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934245434, "dur":5696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934251134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737844934251144, "dur":8827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737844934260069, "dur":63864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737844934331616, "dur":2254, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1737844934357802, "dur": 1041, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737844934357089, "dur": 1784, "ph": "X", "name": "Write chrome-trace events", "args": {} },
