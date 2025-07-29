@@ -361,6 +361,7 @@
 "Assets/Scripts/inspeccionar.cs"
 "Assets/Scripts/Jugador.cs"
 "Assets/Scripts/Manecillas.cs"
+"Assets/Scripts/Menus.cs"
 "Assets/Scripts/ScriptInnecesario.cs"
 "Assets/Scripts/spawnear.cs"
 "Assets/Scripts/Tirador.cs"
