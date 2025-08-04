@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638730338637860171
-    m_Hash: 1421907397
+      ticks: 638896980681522605
+    m_Hash: 755808496
   m_LockFileStatus:
     m_FilePath: C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Soduana/Soduana/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638730339151706424
-    m_Hash: 3603328039
+      ticks: 638896980681532580
+    m_Hash: 4269473854
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -121,6 +121,9 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
     compatible:
     - 1.17.7
     - 2.0.0-preview.6
@@ -147,6 +150,9 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
     verified: 1.17.7
   dependencies:
   - name: com.unity.services.core
@@ -348,6 +354,8 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
+    - 3.0.35
+    - 3.0.36
     compatible:
     - 3.0.18
     - 3.0.20
@@ -360,7 +368,9 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
-    verified: 3.0.34
+    - 3.0.35
+    - 3.0.36
+    verified: 3.0.36
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -435,13 +445,15 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
     compatible:
     - 2.0.17
     - 2.0.18
     - 2.0.20
     - 2.0.21
     - 2.0.22
-    verified: 2.0.22
+    - 2.0.23
+    verified: 2.0.23
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -607,6 +619,7 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -629,6 +642,7 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -804,6 +818,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -821,6 +837,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
     verified: 3.0.9
   dependencies:
   - name: com.unity.ugui
@@ -958,6 +976,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -966,6 +985,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.6.4
     - 1.6.5
@@ -978,6 +998,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -986,6 +1007,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     verified: 1.6.5
   dependencies:
   - name: com.unity.modules.audio
@@ -1144,12 +1166,16 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
     - 1.9.4
     - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
     compatible:
     - 1.8.0
     - 1.9.0
@@ -1157,6 +1183,9 @@ m_ResolvedPackages:
     - 1.9.2
     - 1.9.4
     - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
     verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
@@ -3129,9 +3158,11 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     verified: 1.1.1
   dependencies: []
   resolvedDependencies: []
@@ -3315,6 +3346,8 @@ m_ResolvedPackages:
     - 1.12.4
     - 1.12.5
     - 1.13.0
+    - 1.14.0
+    - 1.15.1
     compatible:
     - 1.7.0
     - 1.7.1
@@ -3329,6 +3362,8 @@ m_ResolvedPackages:
     - 1.12.4
     - 1.12.5
     - 1.13.0
+    - 1.14.0
+    - 1.15.1
     verified: 1.7.1
   dependencies:
   - name: com.unity.modules.androidjni
@@ -3395,6 +3430,7 @@ m_ResolvedPackages:
     - 1.0.3
     - 2.0.0
     - 2.0.1
+    - 2.1.0
     compatible:
     - 1.0.3
     - 2.0.0
