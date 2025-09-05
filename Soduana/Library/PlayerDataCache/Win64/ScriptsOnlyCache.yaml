@@ -1,11 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bascula
     - BotellaTransporte
     - Botella_main
+    - CamaraControl
     - Despawnear
     - Manecillas
+    - Menus
     - Tirador
+    - VasoPrecipitado
     - botonBueno
     - click2
     - clickear
@@ -13,22 +17,86 @@ ScriptsOnlyBuild:
     - spawnear
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   serializedClasses:
     Assembly-CSharp:
     - click2/Item
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Menus
+    methodName: mostrarCreditos
+  - assembly: Assembly-CSharp
+    fullTypeName: Menus
+    methodName: cerrarJuego
+  - assembly: Assembly-CSharp
+    fullTypeName: Menus
+    methodName: habilitarMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Menus
+    methodName: iniciarJuego
   - assembly: Assembly-CSharp
     fullTypeName: Botella_main
     methodName: inspeccionarToggle
+  - assembly: Assembly-CSharp
+    fullTypeName: Botella_main
+    methodName: OrdenarInspeccionACamara
+  - assembly: Assembly-CSharp
+    fullTypeName: CamaraControl
+    methodName: retornarPosicion
+  - assembly: Assembly-CSharp
+    fullTypeName: VasoPrecipitado
+    methodName: vaciar
+  - assembly: Assembly-CSharp
+    fullTypeName: Bascula
+    methodName: resetDisplay
   - assembly: Assembly-CSharp
     fullTypeName: Tirador
     methodName: salir
@@ -36,10 +104,19 @@ ScriptsOnlyBuild:
     fullTypeName: botonBueno
     methodName: empuoncito
   - assembly: Assembly-CSharp
+    fullTypeName: CamaraControl
+    methodName: moverAlVaso
+  - assembly: Assembly-CSharp
+    fullTypeName: VasoPrecipitado
+    methodName: llenar
+  - assembly: Assembly-CSharp
+    fullTypeName: Bascula
+    methodName: mostrarPeso
+  - assembly: Assembly-CSharp
     fullTypeName: botonBueno
     methodName: Aprobar
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Escena_principal.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -71,30 +148,127 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 24782}
+      Script: {instanceID: 1734}
     - Class: 114
-      Script: {instanceID: 26990}
+      Script: {instanceID: 2338}
     - Class: 114
-      Script: {instanceID: 27656}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 27676}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 28378}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 31584}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 32192}
+      Script: {instanceID: 4272}
     - Class: 114
-      Script: {instanceID: 33152}
+      Script: {instanceID: 4530}
     - Class: 114
-      Script: {instanceID: 34312}
+      Script: {instanceID: 4672}
+    - Class: 114
+      Script: {instanceID: 4858}
+    - Class: 114
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5310}
+    - Class: 114
+      Script: {instanceID: 5770}
+    - Class: 114
+      Script: {instanceID: 5780}
+    - Class: 114
+      Script: {instanceID: 5918}
+    - Class: 114
+      Script: {instanceID: 6076}
+    - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
+      Script: {instanceID: 6622}
+    - Class: 114
+      Script: {instanceID: 6742}
+    - Class: 114
+      Script: {instanceID: 7810}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu_principal.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 2212}
+    - Class: 114
+      Script: {instanceID: 2650}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3182}
+    - Class: 114
+      Script: {instanceID: 4250}
+    - Class: 114
+      Script: {instanceID: 4532}
+    - Class: 114
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5918}
+    - Class: 114
+      Script: {instanceID: 6076}
+    - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
+      Script: {instanceID: 7840}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -127,6 +301,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6129a8e0041405893881bf2a28ea620e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VasoPrecipitado
   - hash:
       serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
@@ -187,6 +367,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e857497cdd2626b4cd11e050d1052b1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Manecillas
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -297,7 +483,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e00e8554fcecb29e1ce5739b0bcbf763
+      Hash: bd3757bcf0c5a35684cd52b32330e99d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Botella_main
@@ -313,6 +499,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: d1e775a253c7aac34214aead214fbf88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScriptInnecesario
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -477,6 +669,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 067474ee31c9e62109d00e3b26ab7afa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tirador
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -487,6 +685,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1726d682eec70f479f80f3a3a3837454
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: click2
   - hash:
       serializedVersion: 2
       Hash: 75de60bccbd35c2e82026d4a60733734
@@ -501,10 +705,28 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 7e35f6a4342f8412667f22b3e4f0aa1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: spawnear
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5078563dba5fd4317c4a0f7d848cddc6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ejemplo
+  - hash:
+      serializedVersion: 2
+      Hash: 8d0dbbfe626e1943a59b5b84badf8231
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamaraControl
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -591,6 +813,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 98e4154c21db7f453601c0231ba92bed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: botonBueno
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -627,6 +855,18 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 815b19782d0b65c058238c043a8317b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bascula
+  - hash:
+      serializedVersion: 2
+      Hash: 63b8a281c084955b5bb5fc085038deb1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BotellaTransporte
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -643,6 +883,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 58e68364412c67eae2bdb4954be2dcc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Readme
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
@@ -691,6 +937,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 2ced1eb30cbcc871fd385977675a5e4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: clickear
+  - hash:
+      serializedVersion: 2
+      Hash: 0f0bcd36968193249a2d3e556140a4fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Jugador
+  - hash:
+      serializedVersion: 2
+      Hash: fd373d96b0181ff75022380be8606fa2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: inspeccionar
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -825,10 +1089,22 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 738dd72a2e07f21eb3cd2139367ca62b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Despawnear
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 40d9d3c0d5bc0dcf5aaeb3640f790eae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menus
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -874,70 +1150,17 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlCamara
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 63b8a281c084955b5bb5fc085038deb1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BotellaTransporte
-  - hash:
-      serializedVersion: 2
-      Hash: e857497cdd2626b4cd11e050d1052b1a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Manecillas
-  - hash:
-      serializedVersion: 2
-      Hash: 2ced1eb30cbcc871fd385977675a5e4d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: clickear
-  - hash:
-      serializedVersion: 2
-      Hash: 1726d682eec70f479f80f3a3a3837454
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: click2
-  - hash:
-      serializedVersion: 2
-      Hash: fd373d96b0181ff75022380be8606fa2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: inspeccionar
-  - hash:
-      serializedVersion: 2
-      Hash: 98e4154c21db7f453601c0231ba92bed
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: botonBueno
-  - hash:
-      serializedVersion: 2
-      Hash: 7e35f6a4342f8412667f22b3e4f0aa1e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: spawnear
-  - hash:
-      serializedVersion: 2
-      Hash: 738dd72a2e07f21eb3cd2139367ca62b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Despawnear
-  - hash:
-      serializedVersion: 2
-      Hash: 067474ee31c9e62109d00e3b26ab7afa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tirador
-  - hash:
-      serializedVersion: 2
-      Hash: d1e775a253c7aac34214aead214fbf88
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScriptInnecesario
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/hp/Desktop/proyectos/GAMEJAM 2/Builds/Soduana.exe
+  - Assets/Scenes/Menu_principal.unity
+  - Assets/Scenes/Escena_principal.unity
+  playerPath: "C:/Users/hp/Desktop/UACJ/10mo semestre/investigaci\xF3n 1/build 2/Soduana.exe"

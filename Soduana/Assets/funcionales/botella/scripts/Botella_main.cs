@@ -10,14 +10,27 @@ public class Botella_main : MonoBehaviour
     public Material[] brands;
     public Material[] liquidos;
     public string[] marcas;
+    //Sección de errores y neutrales
+    public int peso;
+    public float radioactividad;
+    private bool botellaErronea;
 
     //Propiedades principales
     private Material brand, colorLiquido;
     private bool modoInspeccion;
+
+    //Displays
+    public GameObject basculaDisplay;
+    private GameObject camara;
     void Start()
     {
+        camara = GameObject.Find("Main Camera");
+        basculaDisplay = GameObject.Find("basculaHUD");//Busca la pantalla de la báscula
         posCloseUp = GameObject.Find("posInspeccion");
         modoInspeccion = false;
+        errar();
+        asignarError();
+        transmitirPeso();
         seleccionarMarca();
         pintar();
         
@@ -86,7 +99,7 @@ public class Botella_main : MonoBehaviour
             transform.position = posInspeccion;
             transform.rotation = Quaternion.Euler(rotacionDefault);
             GetComponent<Rigidbody>().isKinematic = false;
-            GetComponent<Rigidbody>().useGravity = false; // Cambia esta linea a False para algo muy divertido
+            GetComponent<Rigidbody>().useGravity = true; // Cambia esta linea a False para algo muy divertido
         }
         Debug.Log("Click?");
         
@@ -94,5 +107,46 @@ public class Botella_main : MonoBehaviour
     public bool verificarInspeccion()
     {
         return modoInspeccion;
+    }
+    public void errar()//Define si la botella tendrá errores o no
+    {
+        int probabilidad = Random.Range(0, 100);
+        if (probabilidad <= 50)
+        {
+            botellaErronea = false;
+        }
+        else
+        {
+            botellaErronea = true;
+        }
+    }
+    public void asignarError()//Función que verifica que la botella venga con error, de ser así, pondrá un parámetro incorrecto
+    {
+        if (botellaErronea)
+        {
+            malPeso();
+
+        }
+    }
+    private void malPeso()//Va a asignar un peso mayor o menor al requerido (800gr) sin alterar el volumen
+    {
+        int mayorOMenor = Random.Range(0, 100);
+        if (mayorOMenor <= 50)
+        {
+            peso = Random.Range(700, 751);
+        }
+        else
+        {
+            peso = Random.Range(850, 901);
+        }
+    }
+    //Funciones que transmiten información a terceros
+    public void transmitirPeso()//Esta funcion pasa la información del peso directo a la báscula
+    {
+        basculaDisplay.GetComponent<Bascula>().recibirPeso(peso);
+    }
+    public void OrdenarInspeccionACamara() //Esta funcion da la orden a la camara del jugador de moverse
+    {//(por dios esta funcion ni siquiera debería de estar)
+        camara.GetComponent<CamaraControl>().moverAInspeccion();
     }
 }

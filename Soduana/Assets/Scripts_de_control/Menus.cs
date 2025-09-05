@@ -14,7 +14,7 @@ public class Menus : MonoBehaviour
     */
     public void iniciarJuego()//Función que nos mandará la escena principal
     {
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
     public void cerrarJuego()//Función para cerrar la aplicación
     {
@@ -36,5 +36,9 @@ public class Menus : MonoBehaviour
     private void inhabilitarMenu()//Función para cerrar el panel de menú principal
     {
         paneles[0].SetActive(false);
+    }
+    public void ejemplo(int numero)
+    {
+
     }
 }

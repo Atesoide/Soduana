@@ -18,6 +18,6 @@ public class spawnear : MonoBehaviour
     }
     public void producir()
     {
-        Instantiate(Soda);
+        Instantiate(Soda, transform.position, transform.rotation);
     }
 }

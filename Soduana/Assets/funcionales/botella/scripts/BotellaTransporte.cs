@@ -18,14 +18,14 @@ public class BotellaTransporte : MonoBehaviour
         GetComponent<BoxCollider>().enabled = false;
         x = transform.position.x;
         transform.position = spawnPos;
+        Debug.Log(transform.position);
         limite = GameObject.FindGameObjectWithTag("limit");
         rigid = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        x += vel * Time.deltaTime;
-        transform.position = new Vector3(x, transform.position.y, transform.position.z);
+        
         if (x >= limite.transform.position.x && !llego)
         {
             llego = true;
@@ -33,6 +33,11 @@ public class BotellaTransporte : MonoBehaviour
             vel = 0;
             rigid.useGravity = true;
             rigid.isKinematic = false;
+        }
+        else
+        {
+            x += vel * Time.deltaTime;
+            transform.position = new Vector3(x, transform.position.y, transform.position.z);
         }
     }
     public void go()
