@@ -8,16 +8,7 @@ public class Bascula : MonoBehaviour
     public TMP_Text textoPeso;
     public float intervaloDisplay;
     private int peso;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void recibirPeso(int gramos)
     {
         peso = gramos;

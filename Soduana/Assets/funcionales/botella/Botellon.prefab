@@ -182,8 +182,9 @@ MonoBehaviour:
   - Uva
   - Mango
   peso: 800
-  radioactividad: 0
+  radioactividad: 0.25
   basculaDisplay: {fileID: 0}
+  geigerDisplay: {fileID: 0}
 --- !u!114 &2208874133760907999
 MonoBehaviour:
   m_ObjectHideFlags: 0

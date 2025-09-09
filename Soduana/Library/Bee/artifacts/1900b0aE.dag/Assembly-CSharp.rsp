@@ -354,6 +354,7 @@
 "Assets/funcionales/botella/scripts/Botella_main.cs"
 "Assets/funcionales/escritorio/scripts/Bascula.cs"
 "Assets/funcionales/escritorio/scripts/botonBueno.cs"
+"Assets/funcionales/escritorio/scripts/Geiger.cs"
 "Assets/funcionales/escritorio/scripts/Manecillas.cs"
 "Assets/funcionales/escritorio/scripts/Tirador.cs"
 "Assets/funcionales/escritorio/scripts/VasoPrecipitado.cs"

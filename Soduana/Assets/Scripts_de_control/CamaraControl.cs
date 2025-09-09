@@ -12,6 +12,7 @@ public class CamaraControl : MonoBehaviour
     //*0: Posicion inicial
     //*1: Posicion del vaso
     //*2: Posición de inspección
+    //*3: Posicion del contador geiger
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,10 @@ public class CamaraControl : MonoBehaviour
     {
         StartCoroutine("moverAVaso");
     }
+    public void moverAGeiger()
+    {
+        StartCoroutine("MoverAGeiger");
+    }
     public void retornarPosicion()
     {
         StartCoroutine("retornar");
@@ -32,13 +37,11 @@ public class CamaraControl : MonoBehaviour
         
         if (!modoInspeccion)
         {
-            Debug.Log("INSPECCIONA CARAJO");
             modoInspeccion = true;
             StartCoroutine(MoverAInspeccion());
         }
         else
         {
-            Debug.Log("no nada");
             modoInspeccion = false;
             StartCoroutine(retornar());
         }
@@ -51,6 +54,15 @@ public class CamaraControl : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, posiciones[1], paso);
             yield return null;
         } while (transform.position != posiciones[1]);
+    }
+    IEnumerator MoverAGeiger()
+    {
+        do
+        {
+            paso = velocidad * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, posiciones[3], paso);
+            yield return null;
+        } while (transform.position != posiciones[3]);
     }
     IEnumerator retornar()
     {

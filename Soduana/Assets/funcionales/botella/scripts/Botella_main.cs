@@ -20,17 +20,20 @@ public class Botella_main : MonoBehaviour
     private bool modoInspeccion;
 
     //Displays
-    public GameObject basculaDisplay;
+    public GameObject basculaDisplay, geigerDisplay;
     private GameObject camara;
     void Start()
     {
+        radioactividad = Mathf.Round(Random.Range(0.1f, 0.26f) * 100f) / 100f;//UNICO valor que se genera al inicio
         camara = GameObject.Find("Main Camera");
         basculaDisplay = GameObject.Find("basculaHUD");//Busca la pantalla de la báscula
+        geigerDisplay = GameObject.Find("geigerHUD");//Busca la pantalla del contador Geiger
         posCloseUp = GameObject.Find("posInspeccion");
         modoInspeccion = false;
         errar();
         asignarError();
         transmitirPeso();
+        transmitirRadioactividad();
         seleccionarMarca();
         pintar();
         
@@ -124,8 +127,8 @@ public class Botella_main : MonoBehaviour
     {
         if (botellaErronea)
         {
-            malPeso();
-
+            //malPeso();
+            esRadioactivo();
         }
     }
     private void malPeso()//Va a asignar un peso mayor o menor al requerido (800gr) sin alterar el volumen
@@ -140,10 +143,21 @@ public class Botella_main : MonoBehaviour
             peso = Random.Range(850, 901);
         }
     }
+    private void esRadioactivo()//Le pondrá una cantidad de grays peligrosamente radioactiva a la botella
+    {
+        
+        float grays = Mathf.Round(Random.Range(0.30f, 0.75f) * 100f) / 100f;
+        radioactividad = grays;
+        Debug.Log(radioactividad);
+    }
     //Funciones que transmiten información a terceros
     public void transmitirPeso()//Esta funcion pasa la información del peso directo a la báscula
     {
         basculaDisplay.GetComponent<Bascula>().recibirPeso(peso);
+    }
+    public void transmitirRadioactividad()//Pasa la información de los grays directo al contador
+    {
+        geigerDisplay.GetComponent<Geiger>().recibirRadioactividad(radioactividad);
     }
     public void OrdenarInspeccionACamara() //Esta funcion da la orden a la camara del jugador de moverse
     {//(por dios esta funcion ni siquiera debería de estar)
