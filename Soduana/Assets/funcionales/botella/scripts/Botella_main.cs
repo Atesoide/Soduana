@@ -127,7 +127,7 @@ public class Botella_main : MonoBehaviour
     {
         if (botellaErronea)
         {
-            //malPeso();
+            malPeso();
             esRadioactivo();
         }
     }
