@@ -1,0 +1,590 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1758296147463994, "dur":3100, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147467103, "dur":205, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1758296147467388, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1758296147467423, "dur":2229, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1758296147469787, "dur":1229, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147471016, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147638580, "dur":457, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639037, "dur":132, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639169, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639220, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639254, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639262, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639286, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639292, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639300, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639304, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639313, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639316, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639324, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639329, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639340, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639343, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639350, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639354, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639364, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639368, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639375, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639379, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639388, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639392, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639399, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639403, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639411, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639415, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639423, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639427, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639434, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639438, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639451, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639486, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147639561, "dur":3766, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1758296147470619, "dur":640, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147471260, "dur":12573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147483844, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1758296147484259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147494409, "dur":6760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1758296147501369, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147501842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147503383, "dur":9428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147512923, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147513226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147513236, "dur":7559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147520994, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147521526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147521538, "dur":9696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147531394, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147531942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147531955, "dur":8154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147540336, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147540779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147540792, "dur":5942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147546864, "dur":1134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147548002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147548012, "dur":7545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147555714, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147556113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147556127, "dur":8060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147564349, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147565001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147565016, "dur":5955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147571129, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147571956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147571970, "dur":7877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758296147580135, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1758296147580536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758296147580545, "dur":6331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1758296147587034, "dur":51541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147469339, "dur":1730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147471076, "dur":12752, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147483880, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1758296147483891, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147484341, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1758296147484348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147489921, "dur":8185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1758296147498111, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1758296147498390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147498633, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1758296147503146, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147503664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147509118, "dur":6144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147515384, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147515788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147515798, "dur":6807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147522797, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147523424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147523439, "dur":8570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147532203, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147533020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147533030, "dur":7196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147540441, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147540982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147540992, "dur":6995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147548098, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147548504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147548514, "dur":6977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147555652, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147556892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147556904, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147564301, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147564739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147564752, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147570279, "dur":1602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147571887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147571901, "dur":8996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758296147581038, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1758296147581216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758296147581284, "dur":8305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1758296147589724, "dur":48898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147469439, "dur":1647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147471086, "dur":12753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147483843, "dur":1873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1758296147485762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147493315, "dur":7637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1758296147501155, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147501688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147503308, "dur":5631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147509125, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147509572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147509586, "dur":8017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147517791, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147518254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147518267, "dur":5906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147524455, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147524956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147524966, "dur":7114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147532274, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147532818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147532832, "dur":8790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147541760, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147542225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147542238, "dur":6639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147549107, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147549622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147549632, "dur":6936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147556704, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147557922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147557938, "dur":7856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147565962, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147566442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147566455, "dur":7191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758296147573792, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1758296147574295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147575877, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1758296147581784, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1758296147581978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758296147581991, "dur":7375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1758296147589558, "dur":49015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758296147469746, "dur":1373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758296147471119, "dur":12729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758296147483849, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1758296147484216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758296147493820, "dur":6064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1758296147500000, "dur":123626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758296147623631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758296147623643, "dur":14721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758296147638491, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1758296147638493, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147469921, "dur":1217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147471139, "dur":12692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147483844, "dur":2252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1758296147486101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147492929, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1758296147498356, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1758296147498561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147498571, "dur":4783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1758296147503538, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147504104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147509457, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147515708, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147516168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147516300, "dur":6211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147522661, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147523432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147523446, "dur":7728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147531338, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147531847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147531862, "dur":7693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147539734, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147540223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147540233, "dur":5622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147546014, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147546593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147546606, "dur":7765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147554496, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147554954, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147554994, "dur":6398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147561534, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147562727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147562739, "dur":5993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147568876, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147569507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147569520, "dur":6404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758296147576055, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1758296147576245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758296147576258, "dur":16383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1758296147592836, "dur":45779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147469992, "dur":1161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147471153, "dur":12699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147483853, "dur":1848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1758296147485753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147493218, "dur":7864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1758296147501244, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147501730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147503321, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147510549, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147510917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147510927, "dur":8412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147519515, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147520413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147520427, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147527177, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147527708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147527724, "dur":7275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147535166, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147535663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147535676, "dur":6745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147542575, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147543232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147543241, "dur":7092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147550578, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147551096, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147551149, "dur":7176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147558527, "dur":1624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147560156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147560166, "dur":6876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147567174, "dur":4939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147572119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147572133, "dur":13321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758296147585748, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1758296147585932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758296147586027, "dur":8002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1758296147594136, "dur":44488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147470059, "dur":1107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147471166, "dur":12692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147483859, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1758296147484235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147493190, "dur":7255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1758296147500591, "dur":1580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana.exe" }}
+,{ "pid":12345, "tid":7, "ts":1758296147502245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147502259, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana.exe" }}
+,{ "pid":12345, "tid":7, "ts":1758296147505066, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147505412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147509682, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147516725, "dur":818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147517549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147517586, "dur":6878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147524627, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147525100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147525114, "dur":7660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147532895, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147533323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147533333, "dur":8219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147541679, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147542182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147542192, "dur":6542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147548865, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147549365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147549375, "dur":6983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147556534, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147556953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147556967, "dur":7347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147564478, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147565130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147565143, "dur":6546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147571847, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147572259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147572269, "dur":9952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758296147582483, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1758296147582898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758296147582909, "dur":9194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1758296147592250, "dur":46352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147470138, "dur":1043, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147471181, "dur":12698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147483880, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1758296147484432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147493860, "dur":6233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1758296147500226, "dur":13854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1758296147514086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147514099, "dur":4452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1758296147518805, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147519404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147519418, "dur":7626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147527228, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147527867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147527880, "dur":8143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147536176, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147536839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147536853, "dur":6996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147543959, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147544328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147544338, "dur":7315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147551832, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147552354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147552368, "dur":6817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147559310, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147559736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147559748, "dur":6361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147566260, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147566704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147566717, "dur":5791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147572703, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147573311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147575946, "dur":6914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758296147583081, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1758296147583254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758296147583263, "dur":8922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1758296147592336, "dur":46269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147470213, "dur":982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147471195, "dur":12639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147483844, "dur":1727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1758296147485578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147493169, "dur":5807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1758296147499129, "dur":4763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147503899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147504452, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147506932, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147507247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147509761, "dur":10911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147520848, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147521427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147521442, "dur":8695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147530305, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147530837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147530846, "dur":5254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147536258, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147536885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147536895, "dur":6895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147543901, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147544288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147544322, "dur":7755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147552220, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147552722, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147552737, "dur":7275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147560160, "dur":6605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147566814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147566830, "dur":9124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758296147576101, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1758296147576296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758296147576306, "dur":13350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1758296147589825, "dur":48767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147470282, "dur":925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147471208, "dur":12662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147483872, "dur":1874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1758296147485750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147493653, "dur":7860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1758296147501659, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147502227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147503393, "dur":6801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147510351, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147510792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147510809, "dur":9096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147520206, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147520669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147520680, "dur":9208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147530058, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147530654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147530670, "dur":6738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147537548, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147538041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147538055, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147545194, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147546031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147546041, "dur":7292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147553510, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147553982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147553996, "dur":7326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147561430, "dur":747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147562183, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147562262, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147569002, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147569970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147569984, "dur":6975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758296147577263, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1758296147577494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147577521, "dur":7659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1758296147585331, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1758296147585644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758296147585680, "dur":8317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1758296147594101, "dur":44517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147470357, "dur":862, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147471219, "dur":12668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147483887, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1758296147484366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147493150, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1758296147498656, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1758296147498891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147498903, "dur":5098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1758296147504151, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147504648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147509633, "dur":8603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147518416, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147519064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147519079, "dur":6284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147525517, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147526167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147526209, "dur":8658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147535009, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147535384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147535394, "dur":7823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147543326, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147543768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147543778, "dur":7787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147551732, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147552120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147552132, "dur":7833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147560110, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147560959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147560973, "dur":7220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147568345, "dur":2822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147571174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147571190, "dur":8436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758296147579843, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1758296147580404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147580417, "dur":6307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1758296147586892, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1758296147587297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758296147587312, "dur":6959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1758296147594369, "dur":44261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147470468, "dur":765, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147471233, "dur":12652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147483886, "dur":1863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1758296147485754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147493363, "dur":7504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1758296147501015, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147501538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147503169, "dur":8979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147512321, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147512863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147512877, "dur":7698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147520686, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147521354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147521399, "dur":8504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147530078, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147530605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147530659, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147538241, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147538783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147538799, "dur":7068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147546026, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147546747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147546762, "dur":6706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147553622, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147554060, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147554076, "dur":6947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147561174, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147561555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147561565, "dur":6530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147568252, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147568821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147568836, "dur":6074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758296147575156, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1758296147575312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147575326, "dur":6151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1758296147581717, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1758296147581958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758296147581974, "dur":10534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1758296147592804, "dur":45806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147470597, "dur":651, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147471248, "dur":12596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147483845, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1758296147484455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147493313, "dur":8135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1758296147501605, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147502146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147503441, "dur":6585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147510185, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147510537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147510547, "dur":9366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147520176, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147520715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147520729, "dur":9148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147530059, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147530735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147530745, "dur":7401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147538354, "dur":2917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147541277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147541290, "dur":8200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147549657, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147550098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147550109, "dur":7154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147557451, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147558219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147558231, "dur":7954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147566314, "dur":1186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147567505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147567515, "dur":6186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758296147573851, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1758296147574028, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147574402, "dur":5197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1758296147579811, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1758296147580047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758296147580059, "dur":9569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1758296147589745, "dur":48839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147469588, "dur":1514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147471102, "dur":12734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147483845, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1758296147484221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147493376, "dur":7163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1758296147500680, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1758296147500947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147501631, "dur":14007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1758296147515794, "dur":2781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147518580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147518590, "dur":8507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147527251, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147527951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147527965, "dur":6909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147534993, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147535359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147535369, "dur":7062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147542612, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147543125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147543135, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147549533, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147550053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147550067, "dur":7091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147557309, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147557873, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147557912, "dur":7468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147565507, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147565965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147565979, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147571616, "dur":13435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147585057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758296147585071, "dur":9092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758296147594266, "dur":44354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147470684, "dur":587, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147471272, "dur":12601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147483874, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1758296147484340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147493302, "dur":8301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1758296147501798, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147502256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147503410, "dur":8726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147512295, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147512664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147512679, "dur":9337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147522189, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147522684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147522715, "dur":8339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147531246, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147531663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147531678, "dur":7426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147539244, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147539685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147539738, "dur":5987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147545856, "dur":1441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147547303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147547316, "dur":7464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147554915, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147555270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147555281, "dur":8352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147563825, "dur":2174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147566005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147566018, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147571778, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147572695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147572707, "dur":9369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758296147582240, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level1" }}
+,{ "pid":12345, "tid":15, "ts":1758296147582475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758296147582490, "dur":8657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/level1" }}
+,{ "pid":12345, "tid":15, "ts":1758296147591374, "dur":47222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147470763, "dur":520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147471284, "dur":12625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147483910, "dur":2262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1758296147486178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147493285, "dur":6550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1758296147499947, "dur":50560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758296147550512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147550810, "dur":8932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758296147559919, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758296147560778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147560791, "dur":6161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758296147567108, "dur":5992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758296147573104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758296147573154, "dur":14209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hp/Desktop/UACJ/10mo semestre/investigacin 1/build 4/Soduana_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758296147587521, "dur":51056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758296147645992, "dur":3367, "ph":"X", "name": "ProfilerWriteOutput" }
+,
