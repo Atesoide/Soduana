@@ -5,7 +5,7 @@ using UnityEngine;
 public class botonBueno : MonoBehaviour
 {
     GameObject botella;
-    public float fuerzaEmpuje;
+    public float fuerzaEmpuje, empujeVertical;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +38,6 @@ public class botonBueno : MonoBehaviour
     }
     public void empuoncito()
     {
-        botella.GetComponent<Rigidbody>().AddForce(0, 0, fuerzaEmpuje, ForceMode.Impulse);
+        botella.GetComponent<Rigidbody>().AddForce(0, empujeVertical, fuerzaEmpuje, ForceMode.Impulse);
     }
 }
