@@ -16,29 +16,22 @@ public class Menus : MonoBehaviour
     {
         SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
+    public void volverMenu()//Función que nos mandará la escena principal
+    {
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
+    }
     public void cerrarJuego()//Función para cerrar la aplicación
     {
         Application.Quit();
     }
-    public void mostrarCreditos()//Función para abrir panel de créditos
+
+    public void habilitarPanel(int index) //función que muestra el panel que nosotros definamos desde el editor
     {
-        paneles[1].SetActive(true);
-        inhabilitarMenu();
-    }
-    public void habilitarMenu()//Función para cerrar cualquier otro panel que no sea el de menú principal
-    {
-        foreach (var panel in paneles)
+        foreach (GameObject panel in paneles)
         {
             panel.SetActive(false);
         }
-        paneles[0].SetActive(true);
+        paneles[index].SetActive(true);
     }
-    private void inhabilitarMenu()//Función para cerrar el panel de menú principal
-    {
-        paneles[0].SetActive(false);
-    }
-    public void ejemplo(int numero)
-    {
 
-    }
 }
