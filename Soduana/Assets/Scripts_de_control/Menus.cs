@@ -31,7 +31,10 @@ public class Menus : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void irAlFinal()
+    {
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
+    }
     public void habilitarPanel(int index) //función que muestra el panel que nosotros definamos desde el editor
     {
         foreach (GameObject panel in paneles)

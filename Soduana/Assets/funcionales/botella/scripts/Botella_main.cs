@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Botella_main : MonoBehaviour
 {
+    private enum Errores
+    {
+        Radiacion,
+        peso
+    }
+    public int pago;
+
     public Vector3 posInspeccion, rotacionDefault;
     GameObject posCloseUp;
     public GameObject etiqueta, botella, tapa;
@@ -125,10 +132,22 @@ public class Botella_main : MonoBehaviour
     }
     public void asignarError()//Función que verifica que la botella venga con error, de ser así, pondrá un parámetro incorrecto
     {
+        /*Nota personal: System.Enum.GetValues(typeof(Errores)).Lenght 
+         * Devuelve un array con todos los valores de un Enum*/
+        Errores equivocacion = (Errores)Random.Range(0, System.Enum.GetValues(typeof(Errores)).Length);
         if (botellaErronea)
         {
-            malPeso();
-            esRadioactivo();
+            switch (equivocacion)
+            {
+                case Errores.Radiacion:
+                    esRadioactivo();
+                    break;
+                case Errores.peso:
+                    malPeso();
+                    break;
+                default:
+                    break;
+            }
         }
     }
     private void malPeso()//Va a asignar un peso mayor o menor al requerido (800gr) sin alterar el volumen
@@ -162,5 +181,18 @@ public class Botella_main : MonoBehaviour
     public void OrdenarInspeccionACamara() //Esta funcion da la orden a la camara del jugador de moverse
     {//(por dios esta funcion ni siquiera debería de estar)
         camara.GetComponent<CamaraControl>().moverAInspeccion();
+    }
+    //-------DIVISION DE BIBTACORA NO.8-------
+    public void pagar()
+    {
+        endGameScripts.dinero += pago;
+    }
+    public void descontar()
+    {
+        endGameScripts.dinero -= pago;
+    }
+    public bool revisarError()
+    {
+        return botellaErronea;
     }
 }

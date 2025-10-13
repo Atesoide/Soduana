@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4679c39b2eff98748bc41bf18c947d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pago: 10
   posInspeccion: {x: -0.8038344, y: 0.259, z: -10.858}
   rotacionDefault: {x: 0, y: -93.139, z: 0}
   etiqueta: {fileID: 762390033656320341}
