@@ -17,6 +17,13 @@ public class Menus : MonoBehaviour
      *[0] Panel de inspeccionables
      *[1] Panel pausa
      *[2] HUD principal (vacío)
+     *
+     *----Paneles del manual-----
+     *(REVISAR DESDE LA JERARQUÍA EN HUD > HUD_vacio)
+     *[0] Panel botón principal
+     *[1] Pagina 1
+     *[2] Pagina 2
+     *[3] Pagina 3
     */
     public void iniciarJuego()//Función que nos mandará la escena principal
     {
