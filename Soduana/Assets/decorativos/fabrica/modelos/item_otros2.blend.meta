@@ -7,8 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: bascula
+    second: {fileID: 2100000, guid: 5804dd51f5d32864cb29f3bb11b16f84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 5804dd51f5d32864cb29f3bb11b16f84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: contador
     second: {fileID: 2100000, guid: 61c57aff965f55b4a89700f3804988de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pantallita
+    second: {fileID: 2100000, guid: 5804dd51f5d32864cb29f3bb11b16f84, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

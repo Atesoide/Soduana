@@ -6,6 +6,7 @@ TagManager:
   tags:
   - limit
   - inspeccionable
+  - especial
   layers:
   - Default
   - TransparentFX

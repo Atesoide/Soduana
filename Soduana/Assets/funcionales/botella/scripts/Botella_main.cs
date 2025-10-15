@@ -7,14 +7,15 @@ public class Botella_main : MonoBehaviour
     private enum Errores
     {
         Radiacion,
-        peso
+        peso,
+        etiquetado
     }
     public int pago;
 
     public Vector3 posInspeccion, rotacionDefault;
-    GameObject posCloseUp;
+    GameObject posCloseUp, manager;
     public GameObject etiqueta, botella, tapa;
-    public Material[] brands;
+    public Material[] brands, erroresEtiqueta;
     public Material[] liquidos;
     public string[] marcas;
     //Sección de errores y neutrales
@@ -36,39 +37,27 @@ public class Botella_main : MonoBehaviour
         basculaDisplay = GameObject.Find("basculaHUD");//Busca la pantalla de la báscula
         geigerDisplay = GameObject.Find("geigerHUD");//Busca la pantalla del contador Geiger
         posCloseUp = GameObject.Find("posInspeccion");
+        manager = GameObject.Find("GameManager");
         modoInspeccion = false;
+        seleccionarMarca();
         errar();
         asignarError();
         transmitirPeso();
         transmitirRadioactividad();
-        seleccionarMarca();
         pintar();
         
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            //Este condicional es de Debug, RECORDAR DE QUITAR!
-            seleccionarMarca();
-            pintar();
-        }
-        if (modoInspeccion)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                inspeccionarToggle();
-            }
-        }
+
     }
     private void seleccionarMarca()// Función que determina la marca que tendrá la botella
     {
         string seleccion = marcas[Random.Range(0, marcas.Length)];
-        Debug.Log(seleccion);
         switch (seleccion)
         {
-            case "Bubbly":
+            case "Mango":
                 brand = brands[0];
                 colorLiquido = liquidos[0];
                 break;
@@ -76,7 +65,7 @@ public class Botella_main : MonoBehaviour
                 brand = brands[1];
                 colorLiquido = liquidos[1];
                 break;
-            case "Mango":
+            case "Bufizz":
                 brand = brands[2];
                 colorLiquido = liquidos[2];
                 break;
@@ -98,6 +87,7 @@ public class Botella_main : MonoBehaviour
     {
         if (!modoInspeccion)
         {
+            manager.GetComponent<Menus>().habilitarPanel(3);
             modoInspeccion = true;
             transform.position = posCloseUp.transform.position;
             //transform.position = new Vector3(transform.position.x, transform.position.y-0.1f, transform.position.z);
@@ -105,6 +95,7 @@ public class Botella_main : MonoBehaviour
         }
         else
         {
+            manager.GetComponent<Menus>().habilitarPanel(2);
             modoInspeccion = false;
             transform.position = posInspeccion;
             transform.rotation = Quaternion.Euler(rotacionDefault);
@@ -144,6 +135,26 @@ public class Botella_main : MonoBehaviour
                     break;
                 case Errores.peso:
                     malPeso();
+                    break;
+                case Errores.etiquetado:
+                    string seleccion = marcas[Random.Range(0, marcas.Length)];
+                    switch (seleccion)
+                    {
+                        case "Mango":
+                            brand = erroresEtiqueta[0];
+                            colorLiquido = liquidos[0];
+                            break;
+                        case "Uva":
+                            brand = erroresEtiqueta[1];
+                            colorLiquido = liquidos[1];
+                            break;
+                        case "Bufizz":
+                            brand = erroresEtiqueta[2];
+                            colorLiquido = liquidos[2];
+                            break;
+                        default:
+                            break;
+                    }
                     break;
                 default:
                     break;

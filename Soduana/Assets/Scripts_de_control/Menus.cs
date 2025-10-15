@@ -33,6 +33,7 @@ public class Menus : MonoBehaviour
     public void volverMenu()//Función que nos mandará la escena principal
     {
         SceneManager.LoadScene(0, LoadSceneMode.Single);
+        Time.timeScale = 1;
     }
     public void cerrarJuego()//Función para cerrar la aplicación
     {
